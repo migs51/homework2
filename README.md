@@ -5,11 +5,13 @@
 ## Completed
 
 * created a mobile first responsive website using only bootstrapp with no additional style sheet
-* all images are responsive
+* all images and content are responsive
+* used the bootstrap grid system 
 * did not use any media queiries
 * navbar is consisent across all pages
 * links all work
 * used semantic html to layout skeleton of the the site
+* created a sticky footer
 
 ## Directions
 
