@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100 w-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,8 @@
     <title>Contact Info</title>
 </head>
 
-<body>
+<body class="h-100 w-100">
+    <div class="h-100 w-100 d-flex flex flex-column">
 
         <!--Navigation Bar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -37,8 +38,9 @@
                     <header class="col-12 border-bottom border-dark">
                         <h1>Contact</h1>
                     </header>
+                </div>
                 <div class="row">
-                     <section class="col-12">
+                    <section class="col-6">
                               <!--Contact Me Input Form-->
                         <form>
                             <div class="form-group">
@@ -51,23 +53,22 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleMessage1">Message</label>
-                                <textarea class="form-control" id="exampleMessage1" rows="5"></textarea>
+                                <textarea class="form-control" id="exampleMessage1" rows="7"></textarea>
                               </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
-                       
-                </div>
-              
+                        </form> 
+                    </section>
                 </div>
             </section>            
                 
         <!--footer-->
-        <footer class="py-3 bg-dark text-white-50 fixed-bottom">
+        <footer class="mastfoot mt-auto py-3 bg-dark text-white-50">
             <div class="text-center">
                 <p class="m-0">&copy; 2020 Miguel Mejares</p>
             </div>
         </footer>
 
+    </div>
 
 
 
