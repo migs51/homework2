@@ -4,7 +4,12 @@
 
 ## Completed
 
-*
+* created a mobile first responsive website using only bootstrapp with no additional style sheet
+* all images are responsive
+* did not use any media queiries
+* navbar is consisent across all pages
+* links all work
+* used semantic html to layout skeleton of the the site
 
 ## Directions
 
